@@ -1,0 +1,37 @@
+
+/* Hover/Pseodo Element */
+
+/* .block1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.block1:hover{
+    background-color: green;
+} */
+
+/* Transition Property */
+
+.block1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: background-color 3s, width 3s, cubic-bezier(0.68, 0.47, 1, 0.22);
+}
+.block1:hover{
+    background-color: green;
+    width: 600px;
+}
+
+
+.block2{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: green;
+    transition: background-color 3s, height 5s;
+}
+.block2:hover{
+    background-color: blue;
+    height: 300px;
+}
